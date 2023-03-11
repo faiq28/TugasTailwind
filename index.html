@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Tailwind</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="flex justify-between flex-row max-h-screen">
+        <div class="w-2/4">
+            <img src="BG.png" alt="login" class="object-cover max-h-screen w-full">
+        </div>
+        <div class="absolute font-medium">
+            <h1 class="text-4xl text-white my-16 mx-12">CodingWithFaiq</h1>
+            <!-- <h1 class="text-6xl text-white my-40 mx-12 font-bold">Learn to code. <br><br> Interactively. <br><br> For
+                free.</h1> -->
+            <div class="mx-12 my-36">
+                <h1 class="text-white text-5xl mt-[50%] font-bold">Learn to code.</h1>
+                <h1 class="text-white text-5xl mt-[5%] font-bold">Interactively.</h1>
+                <h1 class="text-white text-5xl mt-[5%] font-bold">For free.</h1>
+            </div>
+            <div class="h-12 w-36 bg-white flex rounded-full items-center justify-center mx-10 my-36">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.4"
+                        d="M16 29.3333C23.3638 29.3333 29.3334 23.3638 29.3334 16C29.3334 8.6362 23.3638 2.66666 16 2.66666C8.63622 2.66666 2.66669 8.6362 2.66669 16C2.66669 23.3638 8.63622 29.3333 16 29.3333Z"
+                        fill="#5268F4" />
+                    <path
+                        d="M12.1334 16V14.0267C12.1334 11.48 13.9334 10.4533 16.1334 11.72L17.84 12.7067L19.5467 13.6933C21.7467 14.96 21.7467 17.04 19.5467 18.3067L17.84 19.2933L16.1334 20.28C13.9334 21.5467 12.1334 20.5067 12.1334 17.9733V16Z"
+                        fill="white" />
+                </svg>
+                <h1 class="text-ta text-sm ">Watch Demo</h1>
+            </div>
+            <ul>
+                <li class="flex my-36 mx-14 text-white text-xl gap-8 w-full">
+                    <a href="#" class="hover:text-Basic">Home</a>
+                    <a href="#" class="hover:text-Basic">Tour</a>
+                    <a href="#" class="hover:text-Basic">Course</a>
+                    <a href="#" class="hover:text-Basic">Articles</a>
+                    <a href="#" class="hover:text-Basic">Blog</a>
+                </li>
+            </ul>
+        </div>
+        <div class="w-2/4 bg-white flex justify-center items-center">
+            <main class="w-4/6">
+                <div class="mb-6 center">
+                    <h1 class="font-medium text-4xl mb-2">Join over 25 <br> millionlearners from around the globe</h1>
+
+
+                    <p class="text-gray-500">
+                        Lorem ipsum dolor sit amet consectetur. Viverra felis ornare dui at massa risus
+                        senectus nisl. Sit nisi odio vel elit semper nunc risus. Faucibus viverra tristique odio a
+                        ultrices.
+                    </p>
+                </div>
+
+                <div class="mb-3">
+                    <!-- <label for="email" class="font-medium text-xl">Email</label> -->
+                    <div
+                        class="flex gap-3 mt-2 px-4 py-2 rounded-md border shadow-md focus-within:border-Basic hover:ring duration-200">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17 20.5H7C4 20.5 2 19 2 15.5V8.5C2 5 4 3.5 7 3.5H17C20 3.5 22 5 22 8.5V15.5C22 19 20 20.5 17 20.5Z"
+                                stroke="#141414" stroke-opacity="0.7" stroke-width="1.5" stroke-miterlimit="10"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M17 9L13.87 11.5C12.84 12.32 11.15 12.32 10.12 11.5L7 9" stroke="#141414"
+                                stroke-opacity="0.7" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                        <input type="email" id="email" class="w-full hover:border-Basic focus:outline-none"
+                            placeholder="Input your email" />
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <!-- <label for="password" class="font-medium text-lg">Set New Password</label> -->
+                    <div
+                        class="flex gap-3 mt-2 px-4 py-2 rounded-md border shadow-md focus-within:border-Basic hover:ring duration-200">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12.12 12.78C12.05 12.77 11.96 12.77 11.88 12.78C10.12 12.72 8.72 11.28 8.72 9.51C8.72 7.7 10.18 6.23 12 6.23C13.81 6.23 15.28 7.7 15.28 9.51C15.27 11.28 13.88 12.72 12.12 12.78Z"
+                                stroke="#141414" stroke-opacity="0.7" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M18.74 19.38C16.96 21.01 14.6 22 12 22C9.39999 22 7.03999 21.01 5.25999 19.38C5.35999 18.44 5.95999 17.52 7.02999 16.8C9.76999 14.98 14.25 14.98 16.97 16.8C18.04 17.52 18.64 18.44 18.74 19.38Z"
+                                stroke="#141414" stroke-opacity="0.7" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                                stroke="#141414" stroke-opacity="0.7" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                        <input type="text" id="name" class="w-full  hover:border-Basic focus:outline-none"
+                            placeholder="my name |">
+                    </div>
+
+                    <div class="mb-3">
+                        <!-- <label for="Password" class="font-medium text-xl">Password</label> -->
+                        <div
+                            class="flex gap-3 mt-2 px-4 py-2 rounded-md border shadow-md focus-within:border-Basic hover:ring duration-200">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 10V8C6 4.69 7 2 12 2C17 2 18 4.69 18 8V10" stroke="#141414"
+                                    stroke-opacity="0.7" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M17 22H7C3 22 2 21 2 17V15C2 11 3 10 7 10H17C21 10 22 11 22 15V17C22 21 21 22 17 22Z"
+                                    stroke="#141414" stroke-opacity="0.7" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M15.9965 16H16.0054" stroke="#141414" stroke-opacity="0.7" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M11.9955 16H12.0045" stroke="#141414" stroke-opacity="0.7" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M7.99451 16H8.00349" stroke="#141414" stroke-opacity="0.7" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+
+                            <input type="password" id="Password" class="w-full  hover:border-Basic focus:outline-none"
+                                placeholder="Input your Password" />
+                        </div>
+                    </div>
+
+
+                    <div class="mb-5 flex justify-between">
+                        <div>
+                            <input type="checkbox" name="" id="" class="accent-clrFigma w-5 h-5">
+                            <label for="checkbox">I agree to all statements include in <a href="#"
+                                    class="text-Basic">Terms of use</a></label>
+                        </div>
+                    </div>
+
+
+
+                    <div class="mb-3">
+                        <a href=""
+                            class="w-full bg-Basic text-white px-6 py-3 text-sm font-medium transition duration-300 rounded-md flex items-center justify-center gap-2 hover:text-white border hover:ring hover:ring-Basic">
+                            <img src="../src/img/Google.png" alt="">
+                            <p class="font-medium">Start Coding Now</p>
+                        </a>
+                    </div>
+
+                    <div class="text-center">
+                        <p>already a member? <a href="#" class="text-clrFigma font-medium text-Basic">Log in</a></p>
+                    </div>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>
